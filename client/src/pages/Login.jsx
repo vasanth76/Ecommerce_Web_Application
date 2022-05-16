@@ -23,6 +23,7 @@ const Wrapper = styled.div`
   width: 25%;
   padding: 20px;
   background-color: white;
+  border-radius: 10px;
   ${mobile({ width: "75%" })}
 `;
 
@@ -41,9 +42,11 @@ const Input = styled.input`
   min-width: 40%;
   margin: 10px 0;
   padding: 10px;
+  border-radius: 10px;
 `;
 
 const Button = styled.button`
+  flex: 1;
   width: 40%;
   border: none;
   padding: 15px 20px;
@@ -51,6 +54,7 @@ const Button = styled.button`
   color: white;
   cursor: pointer;
   margin-bottom: 10px;
+  border-radius: 10px;
   &:disabled {
     color: green;
     cursor: not-allowed;

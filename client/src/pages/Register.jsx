@@ -20,6 +20,7 @@ const Wrapper = styled.div`
   width: 40%;
   padding: 20px;
   background-color: white;
+  border-radius: 10px;
   ${mobile({ width: "75%" })}
 `;
 
@@ -38,6 +39,7 @@ const Input = styled.input`
   min-width: 40%;
   margin: 20px 10px 0px 0px;
   padding: 10px;
+  border-radius: 10px;
 `;
 
 const Agreement = styled.span`
@@ -46,12 +48,14 @@ const Agreement = styled.span`
 `;
 
 const Button = styled.button`
+  flex: 1;
   width: 40%;
   border: none;
   padding: 15px 20px;
   background-color: teal;
   color: white;
   cursor: pointer;
+  border-radius: 10px;
 `;
 
 const Register = () => {

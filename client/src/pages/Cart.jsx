@@ -248,8 +248,9 @@ const Cart = () => {
               <SummaryItemPrice>$ {cart.total}</SummaryItemPrice>
             </SummaryItem>
             <StripeCheckout
-              name="Lama Shop"
-              image="https://avatars.githubusercontent.com/u/1486366?v=4"
+              name="Kaufer Shop"
+              image="https://cdn.friendlystock.com/wp-content/uploads/2021/01/11-cartoon-letter-k-cartoon-clipart.jpg"
+              //image="https://c7.alamy.com/comp/3/42e72de4edab41c8b7059e8211db7623/2cgby24.jpg"
               billingAddress
               shippingAddress
               description={`Your total is $${cart.total}`}
