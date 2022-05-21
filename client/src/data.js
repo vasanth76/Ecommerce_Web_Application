@@ -41,6 +41,12 @@ export const sliderItems = [
       title: "LIGHT JACKETS",
       cat:"jeans"
     },
+    {
+      id: 4,
+      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      title: "SHIRT STYLE!",
+      cat:"shoe"
+    }
   ];
 
   export const popularProducts = [
